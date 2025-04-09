@@ -84,7 +84,7 @@ By interacting with the application using `kubectl`, I practiced Kubernetes fund
 |--------|-------------|
 | `kubectl get pods` | List all pods in the cluster |
 | `kubectl get services` | List services and their cluster IPs/ports |
-| `kubectl port-forward service/nodejs-service 8080:3323` | Forward Service port to localhost for browser access |
+| `kubectl port-forward service/nodejs-service 323:3323` | Forward Service port to localhost for browser access |
 | `kubectl describe pod <pod-name>` | Inspect pod details, including container port |
 
 ## 📘 Conclusion
